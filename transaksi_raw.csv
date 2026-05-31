@@ -1,0 +1,9 @@
+id,tanggal,produk,kategori,kota,jumlah,harga
+1,2026-05-01,Laptop,Elektronik,Jakarta,1,8000000
+2,2026-05-01,Mouse,Elektronik,Bandung,2,150000
+3,2026-05-02,Buku,Edukasi,Surabaya,3,75000
+4,2026-05-02,Laptop,Elektronik,Jakarta,1,8000000
+5,2026-05-03,Pulpen,Edukasi,Kediri,10,5000
+6,2026-05-03,Laptop,Elektronik,Jakarta,1,8000000
+7,2026-05-04,Mouse,Elektronik,Bandung,1,150000
+8,2026-05-04,Buku,Edukasi,Surabaya,2,75000

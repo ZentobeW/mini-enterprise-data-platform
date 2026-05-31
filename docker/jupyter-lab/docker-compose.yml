@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    image: quay.io/jupyter/pyspark-notebook:latest
+    container_name: jupyter-spark
+    ports:
+      - "8889:8888"
+      - "4040:4040"
+      - "4041:4041"
+    volumes:
+      - ./work:/home/jovyan/work
+    networks:
+      - docker-hive_default
+
+networks:
+  docker-hive_default:
+    external: true

@@ -1,0 +1,3 @@
+USE warehouse;
+
+SHOW TABLES;

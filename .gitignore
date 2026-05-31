@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+
+*.parquet
+*.crc
+
+spark-warehouse/
+metastore_db/
+
+.env
+
+__pycache__/
+
+*.log
+
+.DS_Store

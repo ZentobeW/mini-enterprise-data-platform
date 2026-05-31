@@ -1,0 +1,26 @@
+services:
+  hue-db:
+    image: postgres:13
+    container_name: hue-db
+    environment:
+      POSTGRES_DB: hue
+      POSTGRES_USER: hue
+      POSTGRES_PASSWORD: hue
+    networks:
+      - docker-hive_default
+
+  hue:
+    image: gethue/hue:latest
+    container_name: hue
+    depends_on:
+      - hue-db
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./conf/hue.ini:/usr/share/hue/desktop/conf/z-hue.ini
+    networks:
+      - docker-hive_default
+
+networks:
+  docker-hive_default:
+    external: true
