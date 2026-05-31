@@ -298,31 +298,23 @@ The Hadoop NameNode interface showing cluster health and storage information.
 
 ### Data Lake Structure
 
-![Data Lake Structure](screenshots/02_data_lake_structure.png)
+![Data Lake Structure](screenshots/02_hdfs_data_lake_structure.png)
 
 The implemented Medallion Architecture in HDFS.
 
 ---
 
-### Hive Warehouse
+### Hue Warehouse
 
-![Hive Tables](screenshots/03_hive_tables.png)
+![Hue Tables](screenshots/03_hue_show_tables.png)
 
-Hive Warehouse tables and metadata.
-
----
-
-### Star Schema Tables
-
-![Star Schema Tables](screenshots/04_star_schema_tables.png)
-
-Fact and dimension tables created in Hive.
+Hue Warehouse tables and metadata.
 
 ---
 
 ### Presto Query Engine
 
-![Presto](screenshots/05_presto_ui.png)
+![Presto](screenshots/04_presto_ui.png)
 
 Presto query engine connected to Hive Warehouse.
 
@@ -330,7 +322,7 @@ Presto query engine connected to Hive Warehouse.
 
 ### Metabase Dashboard
 
-![Metabase Dashboard](screenshots/06_metabase_dashboard.png)
+![Metabase Dashboard](screenshots/05_metabase_dashboard.png)
 
 Business Intelligence dashboard built on top of the warehouse.
 
@@ -374,11 +366,10 @@ mini-enterprise-data-platform/
 │
 ├── screenshots/
 │   ├── 01_hdfs_namenode.png
-│   ├── 02_data_lake_structure.png
-│   ├── 03_hive_tables.png
-│   ├── 04_star_schema_tables.png
-│   ├── 05_presto_ui.png
-│   └── 06_metabase_dashboard.png
+│   ├── 02_hdfs_data_lake_structure.png
+│   ├── 03_hue_shows_tables.png
+│   ├── 04_presto_ui.png
+│   └── 05_metabase_dashboard.png
 │
 └── docker/
     ├── docker-hive/
